@@ -1,4 +1,3 @@
-
 /*
 Theme Name: Landing Page Kenzie Academy
 Theme URI: https://kenzie.com.br/
@@ -24,80 +23,241 @@ family=Montserrat -> Menus
 family=Lato -> Títulos, textos
 */
 
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* FONTS */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* FONTS */
+
+
 /* VARIÁVEIS */
-:root{}
-  
+
+:root {}
+
+
 /* GERAL */
-html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
+
+html,
+body,
+figure,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     list-style: none;
 }
-img{
+
+img {
     max-width: 800px;
 }
-div.flex{
+
+div.flex {
     display: flex;
 }
-div.full-container{
+
+div.full-container {
     width: 100%;
     max-width: 1850px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-div.large-container{
+
+div.large-container {
     width: 100%;
     max-width: 1170px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-div.container{
+
+div.container {
     width: 100%;
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
+
 /* GERAL */
-  
+
+
 /* HTML */
-html{}
+
+html {}
+
+
 /* HTML */
-  
+
+
 /* BODY */
-body{}
+
+body {}
+
+
 /* BODY */
-  
+
+
 /* HEADER */
-header{}
+
+header {}
+
+
 /* HEADER */
-  
-/* FOOTER */
-footer{}
+
+
 /* FOOTER */
 
+footer {}
+
+
+/* FOOTER */
+
+
 /* INICIAL */
-main{}
+
+main {}
+
+
 /* INICIAL */
+
+
+/*SECAO DESTAQUE*/
+
+section .secaoDestaque {
+    display: flex;
+    flex-direction: column;
+    background-color: #00043e;
+    justify-content: center;
+    align-items: center;
+}
+
+.secaoDestaque h2 {
+    font-family: Montserrat;
+    font-size: 63px;
+    font-weight: 300;
+}
+
+.secaoDestaque p {
+    font-size: 21px;
+}
+
+.secaoDestaque button {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*SECAO CURSOS*/
+
+.secaoCursos {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: #303030;
+}
+
+.secaoCursos h2 {
+    margin: 20px;
+}
+
+.p {
+    max-width: 100%;
+    font-size: 19px;
+    color: #818181;
+    background-color: aqua;
+}
+
+.secaoCursos h3 {
+    margin: 20px;
+    font-size: 19px;
+    color: #303030;
+}
+
+.secaoCursos ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #818181;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.secaoCursos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secaoCursos img {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*CONTATOS*/
+
+.secaoContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: #818181;
+}
+
+.secaoContato div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* EXTRAS */
+
 
 /* para estilizar a scrollbar */
-::-webkit-scrollbar{}
-::-webkit-scrollbar-button{}
-::-webkit-scrollbar-track{}
-::-webkit-scrollbar-track-piece{}
-::-webkit-scrollbar-thumb{}
-::-webkit-scrollbar-corner{}
-::-webkit-resizer{}
+
+::-webkit-scrollbar {}
+
+::-webkit-scrollbar-button {}
+
+::-webkit-scrollbar-track {}
+
+::-webkit-scrollbar-track-piece {}
+
+::-webkit-scrollbar-thumb {}
+
+::-webkit-scrollbar-corner {}
+
+::-webkit-resizer {}
+
 
 /* EXTRAS */
-  
+
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
+
+@media screen and (min-width: 400px) {}
+
+@media screen and (min-width: 800px) {}
+
+
 /* MEDIA QUERIES */
