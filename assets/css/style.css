@@ -69,18 +69,66 @@ header.topo {
     background-color: #06143E;
 }
 
-header.topo li {
-    width: 35px;
-    height: 5px;
-    background-color: #ffffff;
-    margin: 6px 0;
+#btn-sandwich {
+    display: flex;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#hamburguer {
+    width: 20px;
+    border-top: 2px solid;
+    gap: 0.5rem;
+}
+
+#hamburguer ::after,
+#hamburguer ::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-top: 2px solid;
+    gap: 0.5rem;
+    margin-top: 5px;
+}
+
+#menu li {
+    padding: 10px 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    border-bottom: #6ADDFE solid;
+}
+
+#menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 98.83px;
+    right: 0;
+    background-color: #06143E;
+    height: 0;
+    transition: 0.6s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#nav.active #menu {
+    height: calc(100vh - 98.73px);
+    visibility: visible;
+    overflow-y: auto;
 }
 
 header.topo figcaption {
-    display: none;
-}
-
-header.topo li a {
     display: none;
 }
 
