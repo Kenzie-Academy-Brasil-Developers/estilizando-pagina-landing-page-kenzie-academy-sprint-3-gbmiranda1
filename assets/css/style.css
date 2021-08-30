@@ -206,6 +206,107 @@ main {}
 /* INICIAL */
 
 
+/*SECAO DESTAQUE*/
+
+section .secaoDestaque {
+    display: flex;
+    flex-direction: column;
+    background-color: #00043e;
+    justify-content: center;
+    align-items: center;
+}
+
+.secaoDestaque h2 {
+    font-family: Montserrat;
+    font-size: 63px;
+    font-weight: 300;
+}
+
+.secaoDestaque p {
+    font-size: 21px;
+}
+
+.secaoDestaque button {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*SECAO CURSOS*/
+
+.secaoCursos {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: #303030;
+}
+
+.secaoCursos h2 {
+    margin: 20px;
+}
+
+.p {
+    max-width: 100%;
+    font-size: 19px;
+    color: #818181;
+    background-color: aqua;
+}
+
+.secaoCursos h3 {
+    margin: 20px;
+    font-size: 19px;
+    color: #303030;
+}
+
+.secaoCursos ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #818181;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.secaoCursos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secaoCursos img {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*CONTATOS*/
+
+.secaoContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: #818181;
+}
+
+.secaoContato div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* EXTRAS */
 
 
