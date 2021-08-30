@@ -467,10 +467,11 @@ span.calendario-data {
 .secaoContato {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
     font-size: 15px;
-    margin-top: 50px;
+    padding: 0px 40px;
     background-color: #ececec;
 }
 
@@ -478,14 +479,34 @@ span.calendario-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: right;
 }
 
 .flex {
     color: #818181;
+    width: 100%;
 }
 
-.flex-col-E {}
+.flex-col-D {
+    width: 100%;
+    text-align: left;
+}
+
+.fas {
+    margin-right: 20px;
+    width: 4px;
+}
+
+.flex-col-E {
+    position: absolute;
+    padding-right: 120px;
+    text-align: left;
+}
+
+.secaoContato-informacoes ul {
+    width: 100%;
+    margin-bottom: 140px;
+}
 
 .flex-col-E a {
     text-decoration: none;
@@ -495,10 +516,46 @@ span.calendario-data {
 .flex .flex-col-D h2 {
     text-transform: uppercase;
     color: #303030;
+    margin-bottom: 120px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
 }
 
-.flex .flex-col-D form {
+.flex-col-D form {
     font-display: none;
+    width: 100%;
+    text-align: right;
+}
+
+.flex-col-D label {
+    display: none;
+}
+
+.form-input-model input,
+.form-input-model textarea {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #818181;
+    padding-left: 10px;
+}
+
+.form-input-model textarea {
+    height: 70px;
+    padding: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.sub {
+    width: 60px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    margin-bottom: 70px;
 }
 
 
