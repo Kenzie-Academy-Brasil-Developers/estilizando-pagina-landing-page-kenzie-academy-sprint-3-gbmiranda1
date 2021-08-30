@@ -190,47 +190,12 @@ header {}
 /* HEADER */
 
 
-/* FOOTER */
-
-footer {}
-
-
-/* FOOTER */
-
-
 /* INICIAL */
 
 main {}
 
 
 /* INICIAL */
-
-
-/*SECAO DESTAQUE*/
-
-section .secaoDestaque {
-    display: flex;
-    flex-direction: column;
-    background-color: #00043e;
-    justify-content: center;
-    align-items: center;
-}
-
-.secaoDestaque h2 {
-    font-family: Montserrat;
-    font-size: 63px;
-    font-weight: 300;
-}
-
-.secaoDestaque p {
-    font-size: 21px;
-}
-
-.secaoDestaque button {
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-}
 
 
 /*SECAO CURSOS*/
@@ -287,6 +252,9 @@ section .secaoDestaque {
 }
 
 
+/*SECAO CURSOS*/
+
+
 /*CONTATOS*/
 
 .secaoContato {
@@ -296,7 +264,7 @@ section .secaoDestaque {
     align-items: center;
     font-size: 15px;
     margin-top: 50px;
-    background-color: #818181;
+    background-color: #ececec;
 }
 
 .secaoContato div {
@@ -305,6 +273,37 @@ section .secaoDestaque {
     justify-content: center;
     align-items: center;
 }
+
+.flex {
+    color: #818181;
+}
+
+.flex-col-E {}
+
+.flex-col-E a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.flex .flex-col-D h2 {
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.flex .flex-col-D form {
+    font-display: none;
+}
+
+
+/*CONTATOS*/
+
+
+/* FOOTER */
+
+footer {}
+
+
+/* FOOTER */
 
 
 /* EXTRAS */
