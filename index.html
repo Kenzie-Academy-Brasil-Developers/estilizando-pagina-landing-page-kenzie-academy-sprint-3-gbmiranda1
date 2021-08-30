@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon-96x96.webp">
     <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/42ad33c342.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <title>Landing Page Kenzie Academy</title>
 </head>
 <!-- NÃO MEXER-->
@@ -25,7 +29,7 @@
 
             <!-- MENU DE NAVEGAÇÃO -->
             <nav id="nav">
-                <button id="btn-sandwich">MENU
+                <button id="btn-sandwich">
                     <span id="hamburguer"></span>
                 </button>
                 <ul id="menu">
@@ -61,7 +65,7 @@
             <article class="flex">
 
                 <!-- COLUNA ESQUERDA -->
-                <div class="flex-col">
+                <div class="flex-col flex-color">
 
                     <h2>LOREM IPSUM DOLOR SIT PYTHON</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti incidunt nam quibusdam fugit reprehenderit aperiam temporibus, maiores dolores molestias cupiditate maxime repudiandae sunt voluptatibus commodi tenetur dolorum
@@ -75,7 +79,7 @@
                 </div>
 
                 <!-- COLUNA DIREITA -->
-                <div class="flex-col">
+                <div class="flex-col flex-col-center flex-color">
 
                     <figure>
                         <img src="assets/img/python.png" alt="python">
@@ -85,7 +89,7 @@
                 </div>
 
                 <!-- COLUNA ESQUERDA -->
-                <div class="flex-col">
+                <div class="flex-col flex-col-center">
 
                     <figure>
                         <img src="assets/img/JavaScript-logo.png" alt="Java Script">
@@ -95,7 +99,7 @@
                 </div>
 
                 <!-- COLUNA DIREITA -->
-                <div class="flex-col">
+                <div class="flex-col flex-col-center ">
 
                     <h2> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
                     <ul>
@@ -223,9 +227,9 @@
                         <p>Contact us and we'll get back to you within 24 hours.</p>
 
                         <ul>
-                            <li><a href="#">Chicago, US</a> </li>
-                            <li><a href="tel:001515151515">+00 1515151515</a></li>
-                            <li><a href="malito:myemail@something.com">myemail@something.com</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i><a href="#">  Chicago, US</a> </li>
+                            <li><i class="fas fa-mobile-alt"></i><a href="tel:001515151515">  +00 1515151515</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="malito:myemail@something.com">  myemail@something.com</a></li>
                         </ul>
 
                     </div>
@@ -268,7 +272,9 @@
     <!-- footer sid-->
     <footer>
 
-        <p>Kenzie Academy - <a href="#nav">kenzie.com.br</a></p>
+        <p>Kenzie Academy - <i id="IconUp" class="fas fa-chevron-up"></i>
+            <a href="#nav"></i>kenzie.com.br</a>
+        </p>
     </footer>
 
     <script src="assets/js/script.js"></script>

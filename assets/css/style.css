@@ -269,7 +269,7 @@ main {}
     text-align: left;
     justify-content: center;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #81818144;
 }
 
 .secaoSobre h2 {
@@ -479,13 +479,10 @@ span.calendario-data {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #818181;
-    box-sizing: border-box;
-    width: 200px;
 }
 
-.flex p {
-    align-self: center;
+.flex {
+    color: #818181;
 }
 
 .flex-col-E {
