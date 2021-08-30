@@ -571,7 +571,8 @@ label {
 /* FOOTER */
 
 footer {
-    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
