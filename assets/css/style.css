@@ -524,21 +524,26 @@ family=Lato -> Títulos, textos
     /*CONTATOS*/
     /* FOOTER */
     
+    .sub-menu {
+        display: none;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px 0px 20px 0px;
+    }
+    
     #IconUp {
         color: #007aff;
-        transition: 0.5s;
+        transition: 1s;
     }
     
     #IconUp:hover {
-        padding-top: 10px;
-    }
-    
-    footer p,
-    a {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 20px;
-        color: white;
+        position: relative;
+        top: 4px;
     }
     /* FOOTER */
     /* EXTRAS */
@@ -562,5 +567,30 @@ family=Lato -> Títulos, textos
     
     @media screen and (min-width: 400px) {}
     
-    @media screen and (min-width: 800px) {}
+    @media screen and (min-width: 800px) {
+        .secaoCursos ul {
+            max-width: 100%;
+            margin: 0px 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .secaoCursos li {
+            margin: 05px;
+            text-align: center;
+            justify-content: center;
+            width: 32%;
+        }
+        .sub-menu {
+            display: flex;
+            margin-top: 25px;
+            margin-bottom: 50px;
+        }
+        .sub-menu a {
+            text-decoration: none;
+            color: #007aff;
+            margin: 0px 5px 0px 5px;
+        }
+    }
     /* MEDIA QUERIES */
