@@ -238,7 +238,7 @@ family=Lato -> Títulos, textos
         text-align: left;
         justify-content: center;
         align-items: center;
-        background-color: #81818144;
+        background-color: #ECECEC;
     }
     
     .secaoSobre h2 {
@@ -423,9 +423,8 @@ family=Lato -> Títulos, textos
     .secaoContato {
         display: flex;
         flex-direction: column;
-        justify-content: right;
-        align-items: right;
-        text-align: right;
+        justify-content: center;
+        align-items: center;
         font-size: 15px;
         padding: 0px 35px;
         background-color: #ececec;
@@ -435,7 +434,7 @@ family=Lato -> Títulos, textos
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: right;
+        align-items: flex-start;
     }
     
     .flex {
@@ -455,8 +454,9 @@ family=Lato -> Títulos, textos
     
     .flex-col-E {
         position: absolute;
-        padding-right: 120px;
+        padding-right: 35px;
         text-align: left;
+        line-height: 20px;
     }
     
     .secaoContato-informacoes ul {
@@ -464,7 +464,7 @@ family=Lato -> Títulos, textos
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 140px;
+        margin-bottom: 170px;
     }
     
     .secaoContato-informacoes li {
@@ -479,10 +479,10 @@ family=Lato -> Títulos, textos
     .flex .flex-col-D h2 {
         text-transform: uppercase;
         color: #303030;
-        margin-bottom: 120px;
+        margin-bottom: 150px;
         width: 100%;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     
     .flex-col-D form {
@@ -524,7 +524,7 @@ family=Lato -> Títulos, textos
     /* FOOTER */
     
     #IconUp {
-        color: #00043e;
+        color: #007aff;
     }
     
     footer p,
