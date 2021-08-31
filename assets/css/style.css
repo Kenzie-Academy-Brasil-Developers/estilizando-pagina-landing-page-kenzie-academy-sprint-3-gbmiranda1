@@ -649,7 +649,7 @@ family=Lato -> Títulos, textos
         }
 
         .secaoDestaqueFormulario{
-            width: 80%;
+            min-width: 589px;
             display: flex;
         }
 
