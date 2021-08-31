@@ -52,6 +52,14 @@ family=Lato -> Títulos, textos
         list-style: none;
     }
     
+    body {
+        font-family: "Lato";
+    }
+    
+    h2 {
+        font-family: "Montserrat";
+    }
+    
     div.large-container {
         display: flex;
         justify-content: space-between;
@@ -204,6 +212,7 @@ family=Lato -> Títulos, textos
     .secaoDestaque h2 {
         font-size: 2.0em;
         margin-bottom: 10px;
+        font-weight: normal;
     }
     
     .secaoDestaque p {
@@ -432,31 +441,26 @@ family=Lato -> Títulos, textos
     /*SECAO CALENDAR*/
     /*CONTATOS*/
     
-    .secaoContato {
+    .secaoContato .flex {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-        padding: 0px 35px;
-        background-color: #ececec;
+        padding: 0px 50px;
+        background-color: #ECECEC;
+        line-height: 25px;
     }
     
-    .secaoContato div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+    .flex-col-C {
+        order: 1;
+        text-align: center;
     }
     
-    .flex {
-        color: #818181;
-        width: 100%;
+    .flex-col-E {
+        order: 2;
+        margin-bottom: 10px;
     }
     
     .flex-col-D {
-        width: 100%;
-        text-align: left;
+        order: 3;
     }
     
     .fas {
@@ -464,36 +468,15 @@ family=Lato -> Títulos, textos
         width: 4px;
     }
     
-    .flex-col-E {
-        position: absolute;
-        padding-right: 35px;
-        text-align: left;
-    }
-    
-    .flex-col-E p {
-        line-height: 20px;
-    }
-    
-    .secaoContato-informacoes ul {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 180px;
-    }
-    
-    .secaoContato-informacoes li {
-        margin: 10px 0px;
-    }
-    
     .flex-col-E a {
         text-decoration: none;
         color: #818181;
     }
     
-    .flex .flex-col-D h2 {
+    .flex .flex-col-C h2 {
         text-transform: uppercase;
         color: #303030;
-        margin-bottom: 200px;
+        margin-bottom: 20px;
         width: 100%;
         text-align: center;
         margin-top: 80px;
@@ -520,10 +503,10 @@ family=Lato -> Títulos, textos
     }
     
     .form-input-model textarea {
-        height: 70px;
+        min-height: 100px;
+        width: 100%;
         padding: 10px 0px 0px 10px;
         box-sizing: border-box;
-        resize: none;
     }
     
     .sub {
