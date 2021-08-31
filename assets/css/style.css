@@ -592,5 +592,40 @@ family=Lato -> Títulos, textos
             color: #007aff;
             margin: 0px 5px 0px 5px;
         }
+        .secaoContato .flex {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .flex-col-C {
+            order: 2;
+            width: 100%;
+        }
+        .flex-col-D {
+            width: 60%;
+            justify-content: start;
+        }
+        .flex-col-E {
+            width: 35%;
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 600px;
+        }
+        .form {
+            width: 46%;
+        }
+        .form-textarea {
+            width: 100%;
+        }
+        .sub {
+            margin-left: auto;
+        }
     }
     /* MEDIA QUERIES */
