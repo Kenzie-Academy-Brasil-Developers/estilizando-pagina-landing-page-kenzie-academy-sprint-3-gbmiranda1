@@ -450,6 +450,7 @@ family=Lato -> Títulos, textos
         display: flex;
         flex-direction: column;
         padding: 0px 50px;
+        color: #818181;
         background-color: #ECECEC;
         line-height: 25px;
     }
@@ -605,7 +606,6 @@ family=Lato -> Títulos, textos
             justify-content: space-around;
             align-items: flex-start;
             flex-wrap: wrap;
-            color: #818181;
             padding-left: 10%;
         }
         .secaoContato li {
