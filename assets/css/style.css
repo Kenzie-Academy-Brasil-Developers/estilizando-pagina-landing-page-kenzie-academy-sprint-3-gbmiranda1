@@ -54,6 +54,7 @@ family=Lato -> Títulos, textos
     
     body {
         font-family: "Lato";
+        width: 100%;
     }
     
     h2 {
@@ -221,6 +222,7 @@ family=Lato -> Títulos, textos
     
     .secaoDestaqueFormulario {
         margin-bottom: 100px;
+
     }
     
     .secaoDestaqueFormulario button {
@@ -368,16 +370,19 @@ family=Lato -> Títulos, textos
     /*SECAO CALENDAR*/
     
     .secaoCalendar {
-        position: relative;
-        margin: 100px 70px 0px 70px;
         display: flex;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
     }
     
     .calendario li {
         border: 1px solid #06143E;
         margin-bottom: 60px;
+        max-width: 250px;
+        min-width: 250px;
     }
     
     .secaoCalendar h2 {
@@ -570,13 +575,13 @@ family=Lato -> Títulos, textos
     
     @media screen and (min-width: 800px) {
         .secaoCursos ul {
-            max-width: 100%;
-            margin: 0px 10px;
+            width: 100%;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
         }
+
         .secaoCursos li {
             margin: 05px;
             text-align: center;
@@ -598,7 +603,7 @@ family=Lato -> Títulos, textos
             height: 100%;
             width: 100%;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             flex-wrap: wrap;
         }
@@ -620,7 +625,7 @@ family=Lato -> Títulos, textos
             width: 600px;
         }
         .form {
-            width: 46%;
+            width: 49%;
         }
         .form-textarea {
             width: 100%;
@@ -643,16 +648,19 @@ family=Lato -> Títulos, textos
             font-size: 25px;
             font-weight: lighter;
         }
+
+        .secaoDestaqueFormulario{
+            width: 80%;
+            display: flex;
+        }
+
         .secaoDestaqueFormulario input {
-            width: 500px;
-            padding: 0;
+            width: 70%;
             height: 30px;
         }
         .secaoDestaqueFormulario button {
-            padding: 0;
-            margin: 0px 0px 0px -9px;
             height: 30px;
-            width: 100px;
+            width: 30%;
             color: white;
         }
         #btn-sandwich {
@@ -679,6 +687,7 @@ family=Lato -> Títulos, textos
         #menu a {
             margin: 0;
             padding: 0 10px 0 10px;
+            letter-spacing: 4px;
         }
         #nav {
             display: flex;
@@ -746,27 +755,27 @@ family=Lato -> Títulos, textos
             display: flex;
             justify-content: center;
             align-items: center;
+            text-align: center;
         }
         .calendario {
             display: flex;
-            justify-content: center;
+            justify-content:space-around;
             align-items: center;
-            gap: 2rem;
+            width: 100%;
         }
         .calendario li {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 350px;
-            height: 100%;
+            max-width: 220px;
+            min-width: 220px;
         }
         .calendario p {
-            width: 300px;
             font-size: 15px;
             align-self: center;
             line-height: 30px;
-            padding: 0;
+            padding: 10px;
         }
         .calendario-data span {
             justify-content: center;
@@ -784,6 +793,10 @@ family=Lato -> Títulos, textos
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
+        }
+        .calendario-data-rodape button{
+            width: 100%;
         }
         /*SECAO CALENDARIO*/
     }
