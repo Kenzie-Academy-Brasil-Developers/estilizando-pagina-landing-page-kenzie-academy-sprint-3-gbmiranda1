@@ -52,6 +52,14 @@ family=Lato -> Títulos, textos
         list-style: none;
     }
     
+    body {
+        font-family: "Lato";
+    }
+    
+    h2 {
+        font-family: "Montserrat";
+    }
+    
     div.large-container {
         display: flex;
         justify-content: space-between;
@@ -204,6 +212,7 @@ family=Lato -> Títulos, textos
     .secaoDestaque h2 {
         font-size: 2.0em;
         margin-bottom: 10px;
+        font-weight: normal;
     }
     
     .secaoDestaque p {
@@ -224,6 +233,10 @@ family=Lato -> Títulos, textos
         border-radius: 0px 4px 4px 0px;
     }
     
+    .secaoDestaqueFormulario button:hover {
+        background-color: #2596ff91;
+    }
+    
     .secaoDestaqueFormulario input {
         border: none;
         padding: 7px;
@@ -238,7 +251,7 @@ family=Lato -> Títulos, textos
         text-align: left;
         justify-content: center;
         align-items: center;
-        background-color: #81818144;
+        background-color: #ECECEC;
     }
     
     .secaoSobre h2 {
@@ -261,6 +274,10 @@ family=Lato -> Títulos, textos
         border-radius: 4px;
         padding: 10px 7px;
         border: 1px solid #8181817e;
+    }
+    
+    .secaoSobre button:hover {
+        background-color: #dddddda3;
     }
     
     .flex-col {
@@ -310,13 +327,13 @@ family=Lato -> Títulos, textos
     }
     
     .secaoCursos h2 {
+        font-size: 22px;
         margin: 20px;
-        font-size: 24px;
     }
     
     .p {
-        font-weight: bolder;
-        font-size: 22px;
+        max-width: 100%;
+        font-size: 20px;
         color: #818181;
     }
     
@@ -414,42 +431,41 @@ family=Lato -> Títulos, textos
         height: 40px;
     }
     
+    .calendario-data-rodape button:hover {
+        background-color: #2596ff91;
+    }
+    
     .calendario-data-rodape span {
         color: #818181;
     }
     /*SECAO CALENDAR*/
     /*CONTATOS*/
     
-    .secaoContato {
+    .secaoContato .flex {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-        margin-top: 50px;
-        background-color: #ececec;
+        padding: 0px 50px;
+        background-color: #ECECEC;
+        line-height: 25px;
     }
     
-    .secaoContato div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .flex {
-        color: #818181;
+    .flex-col-C {
+        order: 1;
+        text-align: center;
     }
     
     .flex-col-E {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        order: 2;
+        margin-bottom: 10px;
     }
     
-    .flex-col-E li {
-        margin: 8px;
+    .flex-col-D {
+        order: 3;
+    }
+    
+    .fas {
+        margin-right: 20px;
+        width: 4px;
     }
     
     .flex-col-E a {
@@ -457,86 +473,71 @@ family=Lato -> Títulos, textos
         color: #818181;
     }
     
-    .flex .flex-col-D h2 {
+    .flex .flex-col-C h2 {
         text-transform: uppercase;
         color: #303030;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
     }
     
-    .flex .flex-col-D form {
+    .flex-col-D form {
         font-display: none;
+        width: 100%;
+        text-align: right;
     }
     
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    .form-input-model {
-        margin: 5px;
-    }
-    
-    #nome {
-        height: 25px;
-        margin: 5px;
-        padding: 5px;
-        width: 200px;
-    }
-    
-    #email {
-        margin: 5px;
-        padding: 5px;
-        height: 25px;
-        width: 200px;
-    }
-    
-    #mensagem {
-        margin: 5px;
-        padding: 5px;
-        height: 90px;
-        width: 200px;
-    }
-    
-    label {
+    .flex-col-D label {
         display: none;
     }
     
-    .sub {
-        width: 50px;
+    .form-input-model input,
+    .form-input-model textarea {
         height: 30px;
-        margin-top: 15px;
-        margin-bottom: 30px;
-        align-self: flex-end;
-        background-color: #FFFFFF;
-        color: #818181;
-        cursor: pointer;
-        font-size: 12px;
-        font-weight: bolder;
-        border-radius: 3px;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 5px;
         border: 1px solid #818181;
+        padding-left: 10px;
+    }
+    
+    .form-input-model textarea {
+        min-height: 100px;
+        width: 100%;
+        padding: 10px 0px 0px 10px;
+        box-sizing: border-box;
+    }
+    
+    .sub {
+        width: 60px;
+        height: 30px;
+        background-color: #ffffff;
+        border: 1px solid #818181;
+        border-radius: 5px;
+        margin-bottom: 70px;
+    }
+    
+    .sub:hover {
+        background-color: #ffffff98;
     }
     /*CONTATOS*/
     /* FOOTER */
     
-    footer {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    footer img {
-        width: 15px;
-    }
-    
     #IconUp {
         color: #007aff;
+        transition: 0.5s;
+    }
+    
+    #IconUp:hover {
+        padding-top: 10px;
     }
     
     footer p,
     a {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
         color: white;
     }
     /* FOOTER */
