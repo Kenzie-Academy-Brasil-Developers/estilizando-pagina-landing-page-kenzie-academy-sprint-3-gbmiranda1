@@ -644,7 +644,7 @@ family=Lato -> Títulos, textos
             align-items: center;
             height: 850px;
             background-position: center;
-            background-image: url("/./assets/img/background-destaque.webp");
+            background-image: url("../img/background-destaque.webp");
             font-size: 35px;
             font-weight: bolder;
         }
